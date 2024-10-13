@@ -1,8 +1,3 @@
-```txt
-npm install
-npm run dev
-```
+# Nicolaj Blach Jensen's Personal Site GitHub
 
-```txt
-npm run deploy
-```
+This is the repository containing the code for my Personal website [nicolaj.dev](https://nicolaj.dev/)!
