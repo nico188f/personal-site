@@ -4,7 +4,7 @@
     "build": "vike build",
     "preview": "run-s build preview:wrangler",
     "drizzle:generate": "drizzle-kit generate",
-    "drizzle:migrate": "wrangler d1 migrations apply YOUR_DATABASE_NAME --local",
+    "drizzle:migrate": "wrangler d1 migrations apply personal-site-db --local",
     "drizzle:studio": "drizzle-kit studio",
     "lint": "eslint .",
     "shadcn": "npx shadcn@latest",

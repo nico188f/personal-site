@@ -133,6 +133,7 @@ dist
 
 # Cloudflare
 .wrangler/
+wrangler.toml
 
 # Sentry Vite Plugin
 .env.sentry-build-plugin
