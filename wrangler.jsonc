@@ -1,0 +1,13 @@
+{
+   // Name of your Cloudflare project
+   "name": "personal-site",
+
+   // Directory where the build output is located
+   "pages_build_output_dir": "./dist",
+
+   // Compatibility flags for the environment
+   "compatibility_flags": ["nodejs_compat"],
+
+   // Compatibility date for Cloudflare Workers features
+   "compatibility_date": "2024-11-13",
+}

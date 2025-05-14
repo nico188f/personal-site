@@ -22,6 +22,7 @@
       "@tanstack/react-start": "^1.119.2",
       "react": "^19.1.0",
       "react-dom": "^19.1.0",
+      "unenv": "^1.10.0",
       "vinxi": "^0.5.6"
    }
 }

@@ -1,0 +1,28 @@
+{
+  "_index-NwSfmhd4.js": {
+    "file": "assets/index-NwSfmhd4.js",
+    "name": "index",
+    "isDynamicEntry": true,
+    "dynamicImports": [
+      "app/routes/index.tsx?tsr-split=component"
+    ]
+  },
+  "app/routes/index.tsx?tsr-split=component": {
+    "file": "assets/index-ChrnxMa2.js",
+    "name": "index",
+    "src": "app/routes/index.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-NwSfmhd4.js"
+    ]
+  },
+  "virtual:$vinxi/handler/server": {
+    "file": "server.js",
+    "name": "server",
+    "src": "virtual:$vinxi/handler/server",
+    "isEntry": true,
+    "dynamicImports": [
+      "_index-NwSfmhd4.js"
+    ]
+  }
+}

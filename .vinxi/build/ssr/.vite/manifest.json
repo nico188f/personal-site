@@ -1,0 +1,20 @@
+{
+  "app/routes/index.tsx?tsr-split=component": {
+    "file": "assets/index-CJvvD7pu.js",
+    "name": "index",
+    "src": "app/routes/index.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "virtual:$vinxi/handler/ssr"
+    ]
+  },
+  "virtual:$vinxi/handler/ssr": {
+    "file": "ssr.js",
+    "name": "ssr",
+    "src": "virtual:$vinxi/handler/ssr",
+    "isEntry": true,
+    "dynamicImports": [
+      "app/routes/index.tsx?tsr-split=component"
+    ]
+  }
+}
