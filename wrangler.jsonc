@@ -1,7 +1,0 @@
-{
-  "name": "tanstack-website",
-  "main": ".output/server/index.mjs",
-  "compatibility_date": "2025-04-20",
-  "compatibility_flags": ["nodejs_compat"],
-  "assets": { "directory": ".output/public", "binding": "ASSETS" }
-}
