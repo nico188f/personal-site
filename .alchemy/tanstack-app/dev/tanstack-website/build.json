@@ -1,0 +1,28 @@
+{
+  "kind": "os::Exec",
+  "id": "build",
+  "fqn": "tanstack-app/dev/tanstack-website/build",
+  "seq": 0,
+  "data": {},
+  "status": "updated",
+  "output": {
+    "Symbol(alchemy::ResourceKind)": "os::Exec",
+    "Symbol(alchemy::ResourceID)": "build",
+    "Symbol(alchemy::ResourceFQN)": "tanstack-app/dev/tanstack-website/build",
+    "Symbol(alchemy::ResourceScope)": {
+      "@scope": null
+    },
+    "Symbol(alchemy::ResourceSeq)": 0,
+    "id": "build",
+    "command": "bun run build",
+    "inheritStdio": true,
+    "exitCode": 0,
+    "stdout": "",
+    "stderr": "",
+    "executedAt": 1747330613290,
+    "completed": true
+  },
+  "props": {
+    "command": "bun run build"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "fs::File",
+  "id": "wrangler.jsonc",
+  "fqn": "tanstack-app/dev/tanstack-website/wrangler.jsonc/wrangler.jsonc",
+  "seq": 0,
+  "data": {},
+  "status": "created",
+  "output": {
+    "Symbol(alchemy::ResourceKind)": "fs::File",
+    "Symbol(alchemy::ResourceID)": "wrangler.jsonc",
+    "Symbol(alchemy::ResourceFQN)": "tanstack-app/dev/tanstack-website/wrangler.jsonc/wrangler.jsonc",
+    "Symbol(alchemy::ResourceScope)": {
+      "@scope": null
+    },
+    "Symbol(alchemy::ResourceSeq)": 0,
+    "path": "wrangler.jsonc",
+    "content": "{\n  \"name\": \"tanstack-website\",\n  \"main\": \".output/server/index.mjs\",\n  \"compatibility_date\": \"2025-04-20\",\n  \"compatibility_flags\": [\"nodejs_compat\"],\n  \"assets\": { \"directory\": \".output/public\", \"binding\": \"ASSETS\" }\n}\n"
+  },
+  "props": {
+    "path": "wrangler.jsonc",
+    "content": "{\n  \"name\": \"tanstack-website\",\n  \"main\": \".output/server/index.mjs\",\n  \"compatibility_date\": \"2025-04-20\",\n  \"compatibility_flags\": [\"nodejs_compat\"],\n  \"assets\": { \"directory\": \".output/public\", \"binding\": \"ASSETS\" }\n}\n"
+  }
+}

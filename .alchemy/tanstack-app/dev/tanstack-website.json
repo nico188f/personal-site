@@ -1,0 +1,18 @@
+{
+  "kind": "alchemy::Scope",
+  "id": "tanstack-website",
+  "seq": 0,
+  "data": {},
+  "fqn": "",
+  "props": {},
+  "status": "created",
+  "output": {
+    "Symbol(alchemy::ResourceID)": "tanstack-website",
+    "Symbol(alchemy::ResourceFQN)": "",
+    "Symbol(alchemy::ResourceKind)": "alchemy::Scope",
+    "Symbol(alchemy::ResourceScope)": {
+      "@scope": null
+    },
+    "Symbol(alchemy::ResourceSeq)": 0
+  }
+}
