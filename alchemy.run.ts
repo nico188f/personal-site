@@ -16,8 +16,5 @@ const website = await TanStackStart("personal-site", {
    },
 });
 
-console.log({
-   url: website.url,
-});
-
+console.log(website.url);
 await app.finalize();

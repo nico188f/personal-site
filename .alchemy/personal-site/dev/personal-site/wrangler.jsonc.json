@@ -25,7 +25,7 @@
       "command": "bun run build",
       "bindings": {
         "GITHUB_TOKEN": {
-          "@secret": "/iMyBwX96tNYGV5R/SfCizvlvWKl3yj9+/UtCnBatUH3AHbbkrPr+fySnWsHG12pudUrOfA7/8S8vh+2i+leg17GdczRHMYAabZPkjJH8pI="
+          "@secret": "YByl6/xCl1jqcRxQY8qgKB8UrplJ9aZGWkvKKWYys5HZsI6dYwO7O0o1ZVVOrd3XTnQhw7RfLSRhHQj+/yL2X9IjRdxs795ZZZ5bICRXBRU="
         },
         "ASSETS": {
           "Symbol(alchemy::ResourceKind)": "cloudflare::Asset",
@@ -116,7 +116,7 @@
             }
           ],
           "createdAt": 1747332479832,
-          "updatedAt": 1747417699677
+          "updatedAt": 1747429081689
         }
       },
       "wrangler": true,
@@ -140,8 +140,8 @@
       "observability": {
         "enabled": true
       },
-      "createdAt": 1747417711548,
-      "updatedAt": 1747417711548
+      "createdAt": 1747429095138,
+      "updatedAt": 1747429095138
     },
     "main": ".output/server/index.mjs",
     "spec": {
@@ -156,8 +156,8 @@
         "binding": "ASSETS"
       }
     },
-    "createdAt": 1747417711621,
-    "updatedAt": 1747417711621
+    "createdAt": 1747429095362,
+    "updatedAt": 1747429095362
   },
   "props": {
     "path": "wrangler.jsonc",
@@ -172,7 +172,7 @@
       "command": "bun run build",
       "bindings": {
         "GITHUB_TOKEN": {
-          "@secret": "Kqu2FPkHITfyxOH1WCbsFj+bf5lReirWf7NpFGfHR8gmYOtev/tQ1yLh1G3IMEUOTbOk2w/X8FTKa27RCBBCtn46GT7VLKSOZ9hMG2C66y0="
+          "@secret": "3ngWLaBjS3f2Js3XJxq9nwqbab1BJ9I3i6Q6Ipm+87WnAMk6lE+2ciccQ7PO74T+NCpalW3NgDxsU8Oen42ScOYiWnqyrJJzZc41v/76nz0="
         },
         "ASSETS": {
           "Symbol(alchemy::ResourceKind)": "cloudflare::Asset",
@@ -263,7 +263,7 @@
             }
           ],
           "createdAt": 1747332479832,
-          "updatedAt": 1747417699677
+          "updatedAt": 1747429081689
         }
       },
       "wrangler": true,
@@ -287,8 +287,8 @@
       "observability": {
         "enabled": true
       },
-      "createdAt": 1747417711548,
-      "updatedAt": 1747417711548
+      "createdAt": 1747429095138,
+      "updatedAt": 1747429095138
     },
     "main": ".output/server/index.mjs"
   }

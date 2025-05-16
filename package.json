@@ -7,6 +7,7 @@
       "dev": "vinxi dev",
       "build": "vinxi build",
       "start": "vinxi start",
+      "preview": "bun run build && wrangler preview",
       "deploy": "bun ./alchemy.run.ts"
    },
    "dependencies": {

@@ -6,7 +6,7 @@
   "data": {
     "bindings": {
       "GITHUB_TOKEN": {
-        "@secret": "sOtWEuOt6Ssd8lb0QLpyGCu9VhmsCK02DJ7MaTUeGLxz06qTKGp1w8YGUGrvE6k9Rl0AnrUBrsewWzymfoOqtbE4/OctjvjjqPzP+/bZQvU="
+        "@secret": "fj31hGrNRyNICe5nq4rj8LoSRQrrZT122FQrPugd/3ly51WmQMGlGkatoNU2ITMAxOUCVxn423KQZHLWsKRerrIDv2ASpzKUCGKhP0W/fSo="
       },
       "ASSETS": {
         "Symbol(alchemy::ResourceKind)": "cloudflare::Asset",
@@ -97,7 +97,7 @@
           }
         ],
         "createdAt": 1747332479832,
-        "updatedAt": 1747417699677
+        "updatedAt": 1747429081689
       }
     }
   },
@@ -113,7 +113,7 @@
     "command": "bun run build",
     "bindings": {
       "GITHUB_TOKEN": {
-        "@secret": "9dlLfGHSU6sPdXvIONrVaG1njZAHjd3nPoq7ipwhYWdJn/ObM7ZMSdgy35ZKEGkTt+Muk8JXQkTWuszWAi2R4MZxWkzRGo8nxe7GKoCioPE="
+        "@secret": "GKeLqVUfgTIt5hG+g9QYkX4mRq6p+fMayUnA4ZRiPmA7z5gdDb1j6M4Y81ZxtOT50v/y108vFeXDL9WZHJwu7Z8O8MX/lSQtVPpGm7KuXCY="
       },
       "ASSETS": {
         "Symbol(alchemy::ResourceKind)": "cloudflare::Asset",
@@ -204,7 +204,7 @@
           }
         ],
         "createdAt": 1747332479832,
-        "updatedAt": 1747417699677
+        "updatedAt": 1747429081689
       }
     },
     "wrangler": true,
@@ -228,14 +228,14 @@
     "observability": {
       "enabled": true
     },
-    "createdAt": 1747417711548,
-    "updatedAt": 1747417711548
+    "createdAt": 1747429095138,
+    "updatedAt": 1747429095138
   },
   "props": {
     "command": "bun run build",
     "bindings": {
       "GITHUB_TOKEN": {
-        "@secret": "5JGilkwN81aCkDxrE3pbXOOTbiydIGUbrxVGe7TLBIfoy39bT7+6LhQYtnf6+gbW8IGbBftHlbSpZWaRLR2Y9exUjI1fm5sjjLZkWoSL4eY="
+        "@secret": "VRZGkzumFxANd7V0vKAJT5lgbHGeBIdh1CcmYCmidqWsz5p9HV5jHoc+OK+weh43Z0kuB58t2xiTHU0zX7I3mTiu7ZcOJJXsugl6pkSIpNI="
       },
       "ASSETS": {
         "Symbol(alchemy::ResourceKind)": "cloudflare::Asset",
@@ -326,7 +326,7 @@
           }
         ],
         "createdAt": 1747332479832,
-        "updatedAt": 1747417699677
+        "updatedAt": 1747429081689
       }
     },
     "wrangler": true,
