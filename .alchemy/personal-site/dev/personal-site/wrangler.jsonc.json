@@ -1,0 +1,295 @@
+{
+  "kind": "cloudflare::WranglerJson",
+  "id": "wrangler.jsonc",
+  "fqn": "personal-site/dev/personal-site/wrangler.jsonc",
+  "seq": 3,
+  "data": {},
+  "status": "updated",
+  "output": {
+    "Symbol(alchemy::ResourceKind)": "cloudflare::WranglerJson",
+    "Symbol(alchemy::ResourceID)": "wrangler.jsonc",
+    "Symbol(alchemy::ResourceFQN)": "personal-site/dev/personal-site/wrangler.jsonc",
+    "Symbol(alchemy::ResourceScope)": {
+      "@scope": null
+    },
+    "Symbol(alchemy::ResourceSeq)": 3,
+    "path": "wrangler.jsonc",
+    "worker": {
+      "Symbol(alchemy::ResourceKind)": "cloudflare::Worker",
+      "Symbol(alchemy::ResourceID)": "worker",
+      "Symbol(alchemy::ResourceFQN)": "personal-site/dev/personal-site/worker",
+      "Symbol(alchemy::ResourceScope)": {
+        "@scope": null
+      },
+      "Symbol(alchemy::ResourceSeq)": 2,
+      "command": "bun run build",
+      "bindings": {
+        "GITHUB_TOKEN": {
+          "@secret": "sl2rqhLZgbmx22bfWBtBfVhpxlomNK08XY5X6OC7EVzNRC2JcVQQdcpIa2ddbZgngNFOHdIKWvSwB/kpgPo2lUZRsiaUyfrNhzcsJYkNtd8="
+        },
+        "ASSETS": {
+          "Symbol(alchemy::ResourceKind)": "cloudflare::Asset",
+          "Symbol(alchemy::ResourceID)": "assets",
+          "Symbol(alchemy::ResourceFQN)": "personal-site/dev/personal-site/assets",
+          "Symbol(alchemy::ResourceScope)": {
+            "@scope": null
+          },
+          "Symbol(alchemy::ResourceSeq)": 1,
+          "id": "assets",
+          "type": "assets",
+          "path": ".output/public",
+          "files": [
+            {
+              "path": "android-chrome-192x192.png",
+              "filePath": ".output/public/android-chrome-192x192.png",
+              "contentType": "image/png"
+            },
+            {
+              "path": "android-chrome-512x512.png",
+              "filePath": ".output/public/android-chrome-512x512.png",
+              "contentType": "image/png"
+            },
+            {
+              "path": "apple-touch-icon.png",
+              "filePath": ".output/public/apple-touch-icon.png",
+              "contentType": "image/png"
+            },
+            {
+              "path": "assets/app-BGq2UwZ4.css",
+              "filePath": ".output/public/assets/app-BGq2UwZ4.css",
+              "contentType": "text/css"
+            },
+            {
+              "path": "favicon-16x16.png",
+              "filePath": ".output/public/favicon-16x16.png",
+              "contentType": "image/png"
+            },
+            {
+              "path": "favicon-32x32.png",
+              "filePath": ".output/public/favicon-32x32.png",
+              "contentType": "image/png"
+            },
+            {
+              "path": "favicon.ico",
+              "filePath": ".output/public/favicon.ico",
+              "contentType": "image/x-icon"
+            },
+            {
+              "path": "favicon.png",
+              "filePath": ".output/public/favicon.png",
+              "contentType": "image/png"
+            },
+            {
+              "path": "site.webmanifest",
+              "filePath": ".output/public/site.webmanifest",
+              "contentType": "application/octet-stream"
+            },
+            {
+              "path": "_build/.vite/manifest.json",
+              "filePath": ".output/public/_build/.vite/manifest.json",
+              "contentType": "application/json"
+            },
+            {
+              "path": "_build/assets/app-BGq2UwZ4.css",
+              "filePath": ".output/public/_build/assets/app-BGq2UwZ4.css",
+              "contentType": "text/css"
+            },
+            {
+              "path": "_build/assets/client-D-d9hGsa.js",
+              "filePath": ".output/public/_build/assets/client-D-d9hGsa.js",
+              "contentType": "application/javascript"
+            },
+            {
+              "path": "_build/assets/client-DnvuPxa7.js",
+              "filePath": ".output/public/_build/assets/client-DnvuPxa7.js",
+              "contentType": "application/javascript"
+            },
+            {
+              "path": "_build/assets/index-DYiscIWh.js",
+              "filePath": ".output/public/_build/assets/index-DYiscIWh.js",
+              "contentType": "application/javascript"
+            },
+            {
+              "path": "_build/assets/__vite-browser-external-BIHI7g3E.js",
+              "filePath": ".output/public/_build/assets/__vite-browser-external-BIHI7g3E.js",
+              "contentType": "application/javascript"
+            }
+          ],
+          "createdAt": 1747332479832,
+          "updatedAt": 1747408334752
+        }
+      },
+      "wrangler": true,
+      "main": ".output/server/index.mjs",
+      "compatibilityFlags": [
+        "nodejs_compat"
+      ],
+      "assets": {
+        "html_handling": "auto-trailing-slash",
+        "not_found_handling": "single-page-application",
+        "run_worker_first": false
+      },
+      "name": "personal-site",
+      "entrypoint": ".output/server/index.mjs",
+      "url": "https://personal-site.nico188f.workers.dev",
+      "adopt": true,
+      "type": "service",
+      "id": "worker",
+      "compatibilityDate": "2025-04-20",
+      "format": "esm",
+      "observability": {
+        "enabled": true
+      },
+      "createdAt": 1747408344958,
+      "updatedAt": 1747408344958
+    },
+    "main": ".output/server/index.mjs",
+    "spec": {
+      "name": "personal-site",
+      "main": ".output/server/index.mjs",
+      "compatibility_date": "2025-04-20",
+      "compatibility_flags": [
+        "nodejs_compat"
+      ],
+      "assets": {
+        "directory": ".output/public",
+        "binding": "ASSETS"
+      }
+    },
+    "createdAt": 1747408345011,
+    "updatedAt": 1747408345011
+  },
+  "props": {
+    "path": "wrangler.jsonc",
+    "worker": {
+      "Symbol(alchemy::ResourceKind)": "cloudflare::Worker",
+      "Symbol(alchemy::ResourceID)": "worker",
+      "Symbol(alchemy::ResourceFQN)": "personal-site/dev/personal-site/worker",
+      "Symbol(alchemy::ResourceScope)": {
+        "@scope": null
+      },
+      "Symbol(alchemy::ResourceSeq)": 2,
+      "command": "bun run build",
+      "bindings": {
+        "GITHUB_TOKEN": {
+          "@secret": "N/bGbykmhtYBhJocMHNsRccDZcRus2joquFceVZeFQOp7llKayJebxmyjcA/q9dI3zJKIjv91E3FMw1iLRbCkpqXQCCumfLQuwiPTWfMsrw="
+        },
+        "ASSETS": {
+          "Symbol(alchemy::ResourceKind)": "cloudflare::Asset",
+          "Symbol(alchemy::ResourceID)": "assets",
+          "Symbol(alchemy::ResourceFQN)": "personal-site/dev/personal-site/assets",
+          "Symbol(alchemy::ResourceScope)": {
+            "@scope": null
+          },
+          "Symbol(alchemy::ResourceSeq)": 1,
+          "id": "assets",
+          "type": "assets",
+          "path": ".output/public",
+          "files": [
+            {
+              "path": "android-chrome-192x192.png",
+              "filePath": ".output/public/android-chrome-192x192.png",
+              "contentType": "image/png"
+            },
+            {
+              "path": "android-chrome-512x512.png",
+              "filePath": ".output/public/android-chrome-512x512.png",
+              "contentType": "image/png"
+            },
+            {
+              "path": "apple-touch-icon.png",
+              "filePath": ".output/public/apple-touch-icon.png",
+              "contentType": "image/png"
+            },
+            {
+              "path": "assets/app-BGq2UwZ4.css",
+              "filePath": ".output/public/assets/app-BGq2UwZ4.css",
+              "contentType": "text/css"
+            },
+            {
+              "path": "favicon-16x16.png",
+              "filePath": ".output/public/favicon-16x16.png",
+              "contentType": "image/png"
+            },
+            {
+              "path": "favicon-32x32.png",
+              "filePath": ".output/public/favicon-32x32.png",
+              "contentType": "image/png"
+            },
+            {
+              "path": "favicon.ico",
+              "filePath": ".output/public/favicon.ico",
+              "contentType": "image/x-icon"
+            },
+            {
+              "path": "favicon.png",
+              "filePath": ".output/public/favicon.png",
+              "contentType": "image/png"
+            },
+            {
+              "path": "site.webmanifest",
+              "filePath": ".output/public/site.webmanifest",
+              "contentType": "application/octet-stream"
+            },
+            {
+              "path": "_build/.vite/manifest.json",
+              "filePath": ".output/public/_build/.vite/manifest.json",
+              "contentType": "application/json"
+            },
+            {
+              "path": "_build/assets/app-BGq2UwZ4.css",
+              "filePath": ".output/public/_build/assets/app-BGq2UwZ4.css",
+              "contentType": "text/css"
+            },
+            {
+              "path": "_build/assets/client-D-d9hGsa.js",
+              "filePath": ".output/public/_build/assets/client-D-d9hGsa.js",
+              "contentType": "application/javascript"
+            },
+            {
+              "path": "_build/assets/client-DnvuPxa7.js",
+              "filePath": ".output/public/_build/assets/client-DnvuPxa7.js",
+              "contentType": "application/javascript"
+            },
+            {
+              "path": "_build/assets/index-DYiscIWh.js",
+              "filePath": ".output/public/_build/assets/index-DYiscIWh.js",
+              "contentType": "application/javascript"
+            },
+            {
+              "path": "_build/assets/__vite-browser-external-BIHI7g3E.js",
+              "filePath": ".output/public/_build/assets/__vite-browser-external-BIHI7g3E.js",
+              "contentType": "application/javascript"
+            }
+          ],
+          "createdAt": 1747332479832,
+          "updatedAt": 1747408334752
+        }
+      },
+      "wrangler": true,
+      "main": ".output/server/index.mjs",
+      "compatibilityFlags": [
+        "nodejs_compat"
+      ],
+      "assets": {
+        "html_handling": "auto-trailing-slash",
+        "not_found_handling": "single-page-application",
+        "run_worker_first": false
+      },
+      "name": "personal-site",
+      "entrypoint": ".output/server/index.mjs",
+      "url": "https://personal-site.nico188f.workers.dev",
+      "adopt": true,
+      "type": "service",
+      "id": "worker",
+      "compatibilityDate": "2025-04-20",
+      "format": "esm",
+      "observability": {
+        "enabled": true
+      },
+      "createdAt": 1747408344958,
+      "updatedAt": 1747408344958
+    },
+    "main": ".output/server/index.mjs"
+  }
+}

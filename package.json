@@ -14,12 +14,14 @@
       "@tanstack/react-router-devtools": "^1.120.3",
       "@tanstack/react-start": "^1.120.3",
       "alchemy": "^0.16.4",
+      "axios": "^1.9.0",
       "cloudflare": "^4.2.0",
       "miniflare": "^4.20250508.1",
       "react": "^19.0.0",
       "react-dom": "^19.0.0",
       "tailwind-merge": "^2.6.0",
-      "vinxi": "0.5.3"
+      "vinxi": "0.5.3",
+      "zod": "^3.24.4"
    },
    "devDependencies": {
       "@types/node": "^22.5.4",
