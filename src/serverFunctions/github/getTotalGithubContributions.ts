@@ -1,6 +1,9 @@
 import axios from "axios";
 import { env } from "process";
-import { GithubContributions } from "../../../typesAndSchemas/GithubContributions";
+import {
+   GithubApiResponse,
+   GithubContributions,
+} from "typesAndSchemas/GithubContributions";
 import { z } from "zod";
 import { GetSchemaKeys } from "typesAndSchemas/utility/GetSchemaKeys";
 import { createServerFn } from "@tanstack/react-start";
@@ -27,9 +30,9 @@ async function _getTotalGithubContributions(): Promise<
    // and stores the response in a map
    for (let year = startYear; year < endYear; year++) {
       const apiCall = makeGraphQlRequest(year).then(res => {
-         const yearlyContribution = GithubContributions.parse(
-            res.data.data.user.contributionsCollection
-         );
+         const githubApiResponse = GithubApiResponse.parse(res);
+         const yearlyContribution: z.infer<typeof GithubContributions> =
+            githubApiResponse.data.data.user.contributionsCollection;
 
          totalGithubContributions.totalCommitContributions +=
             yearlyContribution.totalCommitContributions;
@@ -52,7 +55,7 @@ async function _getTotalGithubContributions(): Promise<
    return totalGithubContributions;
 }
 
-function makeGraphQlRequest(year: number): Promise<any> {
+function makeGraphQlRequest(year: number): Promise<unknown> {
    return axios.post(
       "https://api.github.com/graphql",
       {

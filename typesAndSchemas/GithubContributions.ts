@@ -6,3 +6,13 @@ export const GithubContributions = z.object({
    totalPullRequestContributions: number().int().nonnegative().finite(),
    totalPullRequestReviewContributions: number().int().nonnegative().finite(),
 });
+
+// res.data.data.user.contributionsCollection
+
+export const GithubApiResponse = z.object({
+   data: z.object({
+      data: z.object({
+         user: z.object({ contributionsCollection: GithubContributions }),
+      }),
+   }),
+});

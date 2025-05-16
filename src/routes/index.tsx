@@ -1,4 +1,4 @@
-import { createFileRoute, useRouter } from "@tanstack/react-router";
+import { createFileRoute } from "@tanstack/react-router";
 import { getTotalGithubContributions } from "~/serverFunctions/github/getTotalGithubContributions";
 
 export const Route = createFileRoute("/")({
@@ -7,7 +7,6 @@ export const Route = createFileRoute("/")({
 });
 
 function Home() {
-   const router = useRouter();
    const {
       totalCommitContributions,
       totalIssueContributions,

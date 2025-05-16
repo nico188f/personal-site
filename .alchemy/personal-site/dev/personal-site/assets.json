@@ -73,18 +73,18 @@
         "contentType": "text/css"
       },
       {
-        "path": "_build/assets/client-D-d9hGsa.js",
-        "filePath": ".output/public/_build/assets/client-D-d9hGsa.js",
+        "path": "_build/assets/client-B93taB_8.js",
+        "filePath": ".output/public/_build/assets/client-B93taB_8.js",
         "contentType": "application/javascript"
       },
       {
-        "path": "_build/assets/client-DnvuPxa7.js",
-        "filePath": ".output/public/_build/assets/client-DnvuPxa7.js",
+        "path": "_build/assets/client-C30_ju1K.js",
+        "filePath": ".output/public/_build/assets/client-C30_ju1K.js",
         "contentType": "application/javascript"
       },
       {
-        "path": "_build/assets/index-DYiscIWh.js",
-        "filePath": ".output/public/_build/assets/index-DYiscIWh.js",
+        "path": "_build/assets/index-CLOk5mCI.js",
+        "filePath": ".output/public/_build/assets/index-CLOk5mCI.js",
         "contentType": "application/javascript"
       },
       {
@@ -94,7 +94,7 @@
       }
     ],
     "createdAt": 1747332479832,
-    "updatedAt": 1747408334752
+    "updatedAt": 1747417699677
   },
   "props": {
     "path": ".output/public"
