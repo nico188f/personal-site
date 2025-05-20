@@ -1,14 +1,14 @@
 {
   "kind": "cloudflare::Asset",
   "id": "assets",
-  "fqn": "personal-site/dev/personal-site/assets",
+  "fqn": "personal-site/dev/personal-site-preview/assets",
   "seq": 1,
   "data": {},
   "status": "updated",
   "output": {
     "Symbol(alchemy::ResourceKind)": "cloudflare::Asset",
     "Symbol(alchemy::ResourceID)": "assets",
-    "Symbol(alchemy::ResourceFQN)": "personal-site/dev/personal-site/assets",
+    "Symbol(alchemy::ResourceFQN)": "personal-site/dev/personal-site-preview/assets",
     "Symbol(alchemy::ResourceScope)": {
       "@scope": null
     },
@@ -93,8 +93,8 @@
         "contentType": "application/javascript"
       }
     ],
-    "createdAt": 1747332479832,
-    "updatedAt": 1747429081689
+    "createdAt": 1747768971232,
+    "updatedAt": 1747769279326
   },
   "props": {
     "path": ".output/public"

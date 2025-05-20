@@ -1,14 +1,14 @@
 {
   "kind": "os::Exec",
   "id": "build",
-  "fqn": "personal-site/dev/personal-site/build",
+  "fqn": "personal-site/prod/personal-site/build",
   "seq": 0,
   "data": {},
-  "status": "updated",
+  "status": "created",
   "output": {
     "Symbol(alchemy::ResourceKind)": "os::Exec",
     "Symbol(alchemy::ResourceID)": "build",
-    "Symbol(alchemy::ResourceFQN)": "personal-site/dev/personal-site/build",
+    "Symbol(alchemy::ResourceFQN)": "personal-site/prod/personal-site/build",
     "Symbol(alchemy::ResourceScope)": {
       "@scope": null
     },
@@ -19,7 +19,7 @@
     "exitCode": 0,
     "stdout": "",
     "stderr": "",
-    "executedAt": 1747429081667,
+    "executedAt": 1747769056043,
     "completed": true
   },
   "props": {

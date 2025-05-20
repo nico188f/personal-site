@@ -1,14 +1,14 @@
 {
   "kind": "cloudflare::WranglerJson",
   "id": "wrangler.jsonc",
-  "fqn": "personal-site/dev/personal-site/wrangler.jsonc",
+  "fqn": "personal-site/prod/personal-site/wrangler.jsonc",
   "seq": 3,
   "data": {},
-  "status": "updated",
+  "status": "created",
   "output": {
     "Symbol(alchemy::ResourceKind)": "cloudflare::WranglerJson",
     "Symbol(alchemy::ResourceID)": "wrangler.jsonc",
-    "Symbol(alchemy::ResourceFQN)": "personal-site/dev/personal-site/wrangler.jsonc",
+    "Symbol(alchemy::ResourceFQN)": "personal-site/prod/personal-site/wrangler.jsonc",
     "Symbol(alchemy::ResourceScope)": {
       "@scope": null
     },
@@ -17,7 +17,7 @@
     "worker": {
       "Symbol(alchemy::ResourceKind)": "cloudflare::Worker",
       "Symbol(alchemy::ResourceID)": "worker",
-      "Symbol(alchemy::ResourceFQN)": "personal-site/dev/personal-site/worker",
+      "Symbol(alchemy::ResourceFQN)": "personal-site/prod/personal-site/worker",
       "Symbol(alchemy::ResourceScope)": {
         "@scope": null
       },
@@ -25,12 +25,12 @@
       "command": "bun run build",
       "bindings": {
         "GITHUB_TOKEN": {
-          "@secret": "YByl6/xCl1jqcRxQY8qgKB8UrplJ9aZGWkvKKWYys5HZsI6dYwO7O0o1ZVVOrd3XTnQhw7RfLSRhHQj+/yL2X9IjRdxs795ZZZ5bICRXBRU="
+          "@secret": "mfkFuuGoDdvwmZy4v2KYUQgm0AFRlDgsjPPVyHrIaHCbbxVAusY5J2+jpXMd26/YOyuDwInVrRHcA4HQu+FltTlbGCIgCsg1FjxI9c/eSCk="
         },
         "ASSETS": {
           "Symbol(alchemy::ResourceKind)": "cloudflare::Asset",
           "Symbol(alchemy::ResourceID)": "assets",
-          "Symbol(alchemy::ResourceFQN)": "personal-site/dev/personal-site/assets",
+          "Symbol(alchemy::ResourceFQN)": "personal-site/prod/personal-site/assets",
           "Symbol(alchemy::ResourceScope)": {
             "@scope": null
           },
@@ -115,8 +115,8 @@
               "contentType": "application/javascript"
             }
           ],
-          "createdAt": 1747332479832,
-          "updatedAt": 1747429081689
+          "createdAt": 1747769056050,
+          "updatedAt": 1747769056050
         }
       },
       "wrangler": true,
@@ -140,8 +140,8 @@
       "observability": {
         "enabled": true
       },
-      "createdAt": 1747429095138,
-      "updatedAt": 1747429095138
+      "createdAt": 1747769076371,
+      "updatedAt": 1747769076371
     },
     "main": ".output/server/index.mjs",
     "spec": {
@@ -156,15 +156,15 @@
         "binding": "ASSETS"
       }
     },
-    "createdAt": 1747429095362,
-    "updatedAt": 1747429095362
+    "createdAt": 1747769076433,
+    "updatedAt": 1747769076433
   },
   "props": {
     "path": "wrangler.jsonc",
     "worker": {
       "Symbol(alchemy::ResourceKind)": "cloudflare::Worker",
       "Symbol(alchemy::ResourceID)": "worker",
-      "Symbol(alchemy::ResourceFQN)": "personal-site/dev/personal-site/worker",
+      "Symbol(alchemy::ResourceFQN)": "personal-site/prod/personal-site/worker",
       "Symbol(alchemy::ResourceScope)": {
         "@scope": null
       },
@@ -172,12 +172,12 @@
       "command": "bun run build",
       "bindings": {
         "GITHUB_TOKEN": {
-          "@secret": "3ngWLaBjS3f2Js3XJxq9nwqbab1BJ9I3i6Q6Ipm+87WnAMk6lE+2ciccQ7PO74T+NCpalW3NgDxsU8Oen42ScOYiWnqyrJJzZc41v/76nz0="
+          "@secret": "opM32FcRCvBGvfBKZnMx/EHOKo1ltEuz4OPVNhpOhq1aMULQJZQoX0jpKERtvoYxHW8EFmyH0LHQc3wE9bkxN+seEWBzIiChILIAOGXsgTE="
         },
         "ASSETS": {
           "Symbol(alchemy::ResourceKind)": "cloudflare::Asset",
           "Symbol(alchemy::ResourceID)": "assets",
-          "Symbol(alchemy::ResourceFQN)": "personal-site/dev/personal-site/assets",
+          "Symbol(alchemy::ResourceFQN)": "personal-site/prod/personal-site/assets",
           "Symbol(alchemy::ResourceScope)": {
             "@scope": null
           },
@@ -262,8 +262,8 @@
               "contentType": "application/javascript"
             }
           ],
-          "createdAt": 1747332479832,
-          "updatedAt": 1747429081689
+          "createdAt": 1747769056050,
+          "updatedAt": 1747769056050
         }
       },
       "wrangler": true,
@@ -287,8 +287,8 @@
       "observability": {
         "enabled": true
       },
-      "createdAt": 1747429095138,
-      "updatedAt": 1747429095138
+      "createdAt": 1747769076371,
+      "updatedAt": 1747769076371
     },
     "main": ".output/server/index.mjs"
   }
