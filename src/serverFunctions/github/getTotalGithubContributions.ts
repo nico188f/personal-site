@@ -3,9 +3,9 @@ import { env } from "process";
 import {
    GithubApiResponse,
    GithubContributions,
-} from "typesAndSchemas/GithubContributions";
+} from "~/typesAndSchemas/GithubContributions";
 import { z } from "zod";
-import { GetSchemaKeys } from "typesAndSchemas/utility/GetSchemaKeys";
+import { GetSchemaKeys } from "~/typesAndSchemas/utilityType/GetSchemaKeys";
 import { createServerFn } from "@tanstack/react-start";
 
 const githubUsername = "nico188f";
