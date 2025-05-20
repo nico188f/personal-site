@@ -1,4 +1,6 @@
 **/build
 **/public
+**/.alchemy
+**/.wrangler
 pnpm-lock.yaml
 routeTree.gen.ts

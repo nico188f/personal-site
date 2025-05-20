@@ -17,7 +17,7 @@ export const GetSchemaKeys = <T extends z.ZodTypeAny>(schema: T): string[] => {
          // get nested keys
          const nested =
             value instanceof z.ZodType
-               ? GetSchemaKeys(value).map(subKey => `${key}.${subKey}`)
+               ? GetSchemaKeys(value).map((subKey) => `${key}.${subKey}`)
                : [];
          // return nested keys
          return nested.length ? nested : key;

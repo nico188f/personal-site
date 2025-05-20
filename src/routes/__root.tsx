@@ -49,7 +49,7 @@ export const Route = createRootRoute({
          { rel: "icon", href: "/favicon.ico" },
       ],
    }),
-   errorComponent: props => {
+   errorComponent: (props) => {
       return (
          <RootDocument>
             <DefaultCatchBoundary {...props} />

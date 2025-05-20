@@ -29,7 +29,7 @@ async function _getTotalGithubContributions(): Promise<
    // makes api calls for each year
    // and stores the response in a map
    for (let year = startYear; year < endYear; year++) {
-      const apiCall = makeGraphQlRequest(year).then(res => {
+      const apiCall = makeGraphQlRequest(year).then((res) => {
          const githubApiResponse = GithubApiResponse.parse(res);
          const yearlyContribution: z.infer<typeof GithubContributions> =
             githubApiResponse.data.data.user.contributionsCollection;
@@ -67,7 +67,7 @@ function makeGraphQlRequest(year: number): Promise<unknown> {
             "User-Agent":
                "personal-site (https://github.com/nico188f/personal-site)",
          },
-      }
+      },
    );
 }
 
