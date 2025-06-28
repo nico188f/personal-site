@@ -6,10 +6,11 @@ import {
 } from "@tanstack/react-router";
 import { TanStackRouterDevtools } from "@tanstack/react-router-devtools";
 import * as React from "react";
-import { DefaultCatchBoundary } from "~/components/DefaultCatchBoundary";
-import { NotFound } from "~/components/NotFound";
+import { DefaultCatchBoundary } from "~/components/errors/DefaultCatchBoundary";
+import { NotFound } from "~/components/errors/NotFound";
 import appCss from "~/styles/app.css?url";
 import { seo } from "~/utils/seo";
+import HeaderManager from "./../components/head/HeaderManager";
 
 export const Route = createRootRoute({
    head: () => ({
@@ -31,22 +32,22 @@ export const Route = createRootRoute({
          {
             rel: "apple-touch-icon",
             sizes: "180x180",
-            href: "/apple-touch-icon.png",
+            href: "themes/dark/apple-touch-icon-dark.png",
          },
          {
             rel: "icon",
             type: "image/png",
             sizes: "32x32",
-            href: "/favicon-32x32.png",
+            href: "themes/dark/favicon-32x32-dark.png",
          },
          {
             rel: "icon",
             type: "image/png",
             sizes: "16x16",
-            href: "/favicon-16x16.png",
+            href: "themes/dark/favicon-16x16-dark.png",
          },
-         { rel: "manifest", href: "/site.webmanifest" },
-         { rel: "icon", href: "/favicon.ico" },
+         { rel: "manifest", href: "themes/dark/site.webmanifest" },
+         { rel: "icon", href: "themes/dark/favicon-dark.ico" },
       ],
    }),
    errorComponent: (props) => {
@@ -73,6 +74,7 @@ function RootDocument({ children }: { children: React.ReactNode }) {
       <html>
          <head>
             <HeadContent />
+            <HeaderManager />
          </head>
          <body>
             {children}
