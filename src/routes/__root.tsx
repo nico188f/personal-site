@@ -10,7 +10,7 @@ import { DefaultCatchBoundary } from "~/components/errors/DefaultCatchBoundary";
 import { NotFound } from "~/components/errors/NotFound";
 import appCss from "~/styles/app.css?url";
 import { seo } from "~/utils/seo";
-import HeaderManager from "./../components/head/HeaderManager";
+import HeadThemeManager from "../components/head/HeadThemeManager";
 
 export const Route = createRootRoute({
    head: () => ({
@@ -74,7 +74,7 @@ function RootDocument({ children }: { children: React.ReactNode }) {
       <html>
          <head>
             <HeadContent />
-            <HeaderManager />
+            <HeadThemeManager />
          </head>
          <body>
             {children}

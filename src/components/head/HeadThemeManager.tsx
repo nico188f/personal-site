@@ -1,7 +1,7 @@
-import { useTheme } from "~/hooks/useTheme";
+import { useBrowserTheme } from "~/hooks/useBrowserTheme";
 
-export default function HeaderManager() {
-   const theme = useTheme();
+export default function HeadThemeManager() {
+   const theme = useBrowserTheme();
 
    if (theme === null) return <></>;
 

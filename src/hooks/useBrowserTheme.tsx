@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-export function useTheme() {
+export function useBrowserTheme() {
    const [theme, setTheme] = useState<"dark" | "light" | null>(null); // null until client
 
    useEffect(() => {
